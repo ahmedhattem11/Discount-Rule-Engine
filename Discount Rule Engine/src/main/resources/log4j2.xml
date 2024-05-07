@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <File name="File" fileName="logs/rules_engine.log">
+            <PatternLayout>
+                <Pattern>TimeStamp : %d{yyyy-MM-dd HH:mm:ss}  LogLevel : %-5level   Message : %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="File"/>
+        </Root>
+    </Loggers>
+</Configuration>
