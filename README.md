@@ -11,8 +11,7 @@ This Scala project implements a Discount Rules Engine, designed to calculate dis
 - [Database](#database)
 - [Logging](#logging)
 - [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+- [Images](#images)
 
 ## Overview
 
@@ -63,11 +62,18 @@ The project has the following dependencies:
 - Scala 2.13.13
 - Apache Log4j 2.14.1
 
-## Contributing
+## Images
+### Input `TRX1000.csv` file 
+![Input File](https://github.com/ahmedhattem11/Discount-Rule-Engine/assets/87239054/1bc4dc6c-d915-4852-b0a0-423d33d5362a)
 
-Contributions to this project are welcome. You can fork the repository, make your changes, and submit a pull request.
+### Output `discounted_orders.csv` file
+![Output File](https://github.com/ahmedhattem11/Discount-Rule-Engine/assets/87239054/8922cb6a-8646-46f1-aaa0-27a446a48d8c)
 
-## License
+### DiscountOrders Table in `Oracle`
+![Database Output](https://github.com/ahmedhattem11/Discount-Rule-Engine/assets/87239054/75f2cd0a-8fe1-41c9-80d3-c293b67e61e4)
 
-This project is licensed under the [MIT License](LICENSE).
-```
+### Database `Log` Files
+![Database Logs](https://github.com/ahmedhattem11/Discount-Rule-Engine/assets/87239054/eb29de5e-a192-40f7-8f5f-0370fe040219)
+
+
+
